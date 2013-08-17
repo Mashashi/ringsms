@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Aug 15 23:55:22 BST 2013
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=RingSMSDevTools_v1.0_fat.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
