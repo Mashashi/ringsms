@@ -15,6 +15,12 @@ import com.google.common.base.Function;
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
 
+/**
+ * A graphic element that plots mathematical functions.
+ * 
+ * @author Rafael Campos
+ * @version 1.0
+ */
 public class RingSMS {
 	
 	private RingSMS(){
