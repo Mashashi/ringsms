@@ -1,7 +1,7 @@
 # Install it
 
-	
-	[Available on google market](https://play.google.com/store/apps/details?id=pt.mashashi.ringsms)
+
+[![android market logo](https://raw.githubusercontent.com/Mashashi/ringsms/master/available-on-android-market.png)](https://play.google.com/store/apps/details?id=pt.mashashi.ringsms)
 
 # Description
 
