@@ -1,0 +1,9 @@
+
+    <resources>
+        <string name="ringsms_activation">Activação do RingSMS</string>
+        <string name="activate_now">Activar Agora</string>
+        <string name="activation_instructions">Para usar esta aplicação é necessário activá-la.\nAssegure-se de que está ligado à Internet e pressione &quot;Activar Agora&quot;.\nSe a activação falhar tente novamente pressionando no mesmo butão (&quot;Activate Now&quot;).</string>
+        <string name="activating_ringsms">Activar RingSMS</string>
+        <string name="this_shouldnt_take_long">Isto não deve demorar muito.</string>
+        <string name="failed_activation">Activação Falhada.</string>
+    </resources>

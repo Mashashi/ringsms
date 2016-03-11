@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#181818"
+        android:cacheColorHint="@android:color/transparent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <RelativeLayout
+        android:id="@+id/container_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/new_message_bg" >
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/send" />
+		
+        
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="90dp"
+        	android:layout_centerVertical="true"
+        	android:layout_toLeftOf="@+id/button_delete_multi"
+        	android:layout_toRightOf="@id/button_send"
+        	android:orientation="horizontal">
+        	
+        	<LinearLayout
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+        	 
+	        <EditText
+	            android:id="@+id/edit_text_out"
+	            android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent"    
+	            android:inputType="text" 
+	            android:singleLine="true"
+	            android:layout_marginRight="5dp"
+	            android:gravity="top|left" />
+	
+	        <pt.mashashi.ringsms.codemap.MyMultiAutoCompleteTextView
+	            android:id="@+id/edit_text_out_multi"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" 
+	            android:inputType="textMultiLine"
+	            android:singleLine="false" 
+	            android:visibility="gone"
+	            android:gravity="top|left" />
+	        
+        </LinearLayout>
+        <!-- android:layout_toLeftOf="@+id/button_delete_multi" android:layout_toRightOf="@id/button_send" -->
+        <Button
+            android:id="@id/button_delete_multi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btnbs_released"
+            android:visibility="gone" />
+        
+    </RelativeLayout>
+</LinearLayout>

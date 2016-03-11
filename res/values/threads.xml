@@ -1,0 +1,25 @@
+<resources>
+    
+    <!-- Window Bar -->
+	<string name="new_message">New message</string>
+	<string name="write_new_message">Write a new message</string>
+	
+	<!-- Threads Deletion -->
+	<string name="delete_all_threads_title">Delete All Threads</string>
+	<string name="delete_all_threads_details">Do really you wish to delete all threads?</string>
+	
+	<!-- Thread Deletion -->
+	<string name="delete_thread_title">Delete %s\'s Thread</string>
+	<string name="delete_thread_title_selected">Delete Thread</string>
+	<string name="delete_thread_details">Do you really wish do delete the thread?</string>
+	
+	<!-- Total Threads -->
+	<string name="total_threads">%s threads</string>
+	<string name="total_thread">%s thread</string>
+	
+	<!-- Threads Options Menu -->
+	<string name="delete_all">Delete All</string>
+    <string name="preferences">Preferences</string>
+    <string name="info">Info</string>
+	
+</resources>

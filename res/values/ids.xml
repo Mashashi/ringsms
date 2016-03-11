@@ -1,0 +1,11 @@
+<resources>
+    
+    <string name="gps">22b7b4c95eb1498588846318ffbfdf16</string><!-- String key = UUID.randomUUID().toString().replaceAll("-", ""); -->
+    
+    <string name="gpm">029786C89BB5CDF527BB511A2802C769D4FC4E70E3B5DE5A05C0EEB537E6B6B8</string>
+    <string name="gpi">9EA872B2C074CAD4E6C51FC80C4C2AFC</string>
+    <string name="gc">55DBEA910C2B7BA9E2C709CAC9D25DBF4C218079C24682AAB8F98B27ECB3E8AC</string>
+    <string name="gpk">110C3AE1D8F62C320B2CD023F28F24C9</string>
+    <string name="what">QUVT</string>
+    <string name="cer">66525E563276114FF44EB5010422ED10</string>
+</resources>

@@ -1,0 +1,60 @@
+<resources>
+    
+    <string name="general_preferences">Preferências Gerais</string>
+    
+	<!-- Threads Configs Strings -->
+	
+	<string name="error_detection_details_general">Detecção de erro para novas conversações (Ver mais em info)</string>
+	<string name="jitter_details_general">Define o jitter para novas conversações. Jitter longo assegura um balanceamento entre performance e fiabilidade (Ver mais em info)</string>
+	
+	<string name="service">Serviço</string>
+	<string name="channel_performance">Performance do Canal</string>
+	
+	<string name="service_autostart">Começo Automático</string>
+	<string name="service_autostart_details">Começar o serviço no arranque do telemóvel e quando inicia a aplicação para interpretar as mensagens correctamente</string>
+	
+	<string name="service_enabled">Activação de Serviço</string>
+	<string name="service_enabled_details">Activar ou desactivar o serviço de escuta de novas mensagens</string>
+	
+	<string name="manage_code_maps">Mapas de Códigos</string>
+	<string name="manage_code_maps_details">Gerir mapas de códigos (Ver mais em info)</string>
+	
+	<string name="proxy_interfazze">Integração</string>
+	<string name="proxy_interfazze_details">Define um conjunto de parâmetros para fazer a integração com outro software</string>
+	<string name="interfazze_password_title">Password de Autorização</string>
+	<string name="interfazze_password_details">Define a password de autorização para aplicações que façam uso de dados do RingSMS (Ver mais em info)</string>
+	<string name="set_password_dialog_title">Definir password</string>
+	<string name="signinng_password">A password tem de ter no mínimo 6 caracteres</string>
+	
+	
+	<string name="code_map_preferences">Preferências dos Mapas de Códigos</string>
+	<string name="code_map_used_by_enumeration">Usado por: %s</string>
+	<string name="code_map_alert_delete_title">Apagar %s Mapa de Código</string>
+	<string name="code_map_alert_delete">Esta prestes a apagar este mapa de código. Os números a que este mapa está associado deixaram de o estar.</string>
+	<string name="code_map_send_subject">Mapa de Códigos %s por RingSMS</string>
+	<string name="new_code_map">Novo Mapa de Códigos</string>
+	
+	<string name="send_code_map_phone_number_title">O Seu Número de Telefónico</string>
+	<string name="send_code_map_phone_number">Por favor introduza o seu número telefónico. Será útil na importação, para que este mapa fique associado ao seu número no receptor.</string>
+	
+	<string name="code_mappings_editing_title">A Editar o Mapa de Códigos\n\"%s\"</string>
+	<string name="code_mappings_name">Nome do Mapa de Códgios</string>
+	<string name="editing_code_string">Editar Cadeia de Caracteres</string>
+	<string name="new_code_string">Nova Cadeia de Caracteres</string>
+	<string name="there_is_already_a_code">A cadeia de caracteres introduzida já existe</string>
+	<string name="empty_string_not_allowed">Não pode estar vazia</string>
+	<string name="full_code_list">A lista de cadeia de caracteres está cheia</string>
+	<string name="empty_code_list">A lista de cadeias de caracteres não pode estar vazia</string>
+	<string name="code_you_may_want_share">Será boa altura para voltar a partilhar este mapa de códigos</string>
+	<string name="code_imported_success">Importação de mapa de códigos bem sucedida</string>
+	<string name="code_association">Associar com %s</string>
+	<string name="code_overriding">Isto irá subscrever o código de mapas em uso</string>
+	
+	<string name="code_map_associated_with">Este mapa de códigos está associado com os seguintes números: %s</string>
+	<string name="code_map_isnt_associated_to_any_number">Não está em uso</string>
+	
+	<string name="code_map_list_help_use">Pressione para seleccionar</string>
+	<string name="code_map_list_help_edit">Pressione para editar</string>
+	<string name="code_map_list_help_options">Pressione durante algum tempo para abrir o menu</string>
+	<string name="code_map_list_help_deselect">Pressione o código de mapas usado para o deixar de usar</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/counter_threads"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="#777777"
+        android:textSize="12sp"
+        android:gravity="center" />
+
+</RelativeLayout>

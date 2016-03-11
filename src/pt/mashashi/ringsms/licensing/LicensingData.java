@@ -1,0 +1,9 @@
+package pt.mashashi.ringsms.licensing;
+
+public class LicensingData {
+	
+	private LicensingData(){}
+	
+	public static String LISENCING_PUBLIC_KEY_BASE64 = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkF7a6QWYlwd08UzFWDsTlf1cF6I/ruxp45/H/MApwtk7Vx0aY6C95KPvW480TGaPfU4wqg/U3n5BC47ikDtAtNnWXwZj05bSAAjAGg+6PSl10lqHOANItu7rSbeONuuYUG8k/EueZk9vkD/omWhc/RSz8G06t2tKaIMWF/AVG4Qy2skKSmn+SBPRhPE8qfZ30LsX8XwoYSkXZdsa6463USsvxowY5DgKTEh2LE9SNruIq832FVbnZD+1tOVJw94SrIkuj6j7yxJ6Tqk8Jj2YwbKe2eD+3KBC4KU+/M92Ww3GEPpVWpJFEJrVscal4GaESirY1joMXfDzVx1dEkWG3wIDAQAB";
+	
+}

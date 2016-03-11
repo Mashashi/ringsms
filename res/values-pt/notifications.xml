@@ -1,0 +1,10 @@
+<resources>
+    
+	<string name="new_message_from">Nova mensagem de %s</string>
+	<string name="message_being_send">A enviar %s %%</string> 
+	<string name="cancel_message_being_send">Pressione aqui para cancelar</string>
+	
+	<string name="real_call_title">Esta é uma chamada real</string>
+	<string name="real_call_description">Isto não é uma chamada do RingSMS</string>
+	
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    
+    <!-- Interface Send -->
+    <string name="send">Enviar</string>
+    
+    <!-- Warning Sending -->
+    <string name="message_empty">Escreva uma mensagem</string>
+    <string name="supply_valid_phone">Introduza um número válido</string>
+    <string name="invalid_char">O caracter %s não é permitido</string>
+    <string name="invalid_string">Só cadeias de texto que constem do mapa de códigos são permitidas</string>
+    <string name="service_not_running">O serviço não está a correr. Experimente ligá-lo.</string>
+    
+    <!-- Warning Picking Contact -->
+    <string name="which_phone">Escolha um número do contacto %s</string>
+    <string name="which_phone_general">Escolha um número do contacto seleccionado</string>
+    <string name="no_phone">%s não tem números associados</string>
+    <string name="no_phone_general">O contacto seleccionado não tem números</string>
+    <string name="unknown_contact">Desconhecido</string>
+    <string name="to">Para&#8230;</string>
+    
+    <!-- Chat Options Menu -->
+    <string name="delete_thread_menu">Apagar Conversação</string>
+	<string name="thread_preferences_menu">Preferências de Conversação</string>
+	<string name="thread_clear_fields">Limpar Campos</string>
+	<string name="thread_delete_messages">Apagar Mensagens</string>
+	<!--  -->
+	<string name="delete_all_messages">Apagar Todas as Mensagens da Conversação</string>
+	<string name="delete_all_messages_details">Tem a certeza que quer apagar todas as mensagens desta conversação?</string>
+	
+	
+	<!-- Errors transmistting messages -->
+	<string name="urgent_msg_sent">Mensagem urgente enviada.</string>
+	<string name="urgent_msg_received">Mensagem Urgente. Pode ser um erro de rede.</string>
+	<string name="error_detected">Erro Detectado.</string>
+	<string name="message_cancelled">Mensagem Cancelada.</string>
+	<string name="broken_channel">Falha. O contacto pode estar indisponível.</string>
+	<string name="urgent_set_warning">O modo urgent está activo. Só pode enviar um código.</string>
+	
+	
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    
+    <!-- Interface Send -->
+    <string name="send">Send</string>
+    
+    <!-- Warning Sending -->
+    <string name="message_empty">Please type a message</string>
+    <string name="supply_valid_phone">Please supply a valid phone number</string>
+    <string name="invalid_char">The character %s isn\'t allowed</string>
+    <string name="invalid_string">Only strings contained in the code map are allowed</string>
+    <string name="service_not_running">The service is not running. Try turning it on.</string>
+    
+    <!-- Warning Picking Contact -->
+    <string name="which_phone">Choose one phone from %s to contact</string>
+    <string name="which_phone_general">Choose one phone from the selected contact</string>
+    <string name="no_phone">%s has no associated phone numbers</string>
+    <string name="no_phone_general">Selected contact has no associated phone numbers</string>
+    <string name="unknown_contact">Unknown contact</string>
+    <string name="to">To&#8230;</string>
+    
+    <!-- Chat Options Menu -->
+    <string name="delete_thread_menu">Delete Thread</string>
+	<string name="thread_preferences_menu">Thread Preferences</string>
+	<string name="thread_clear_fields">Clear Fields</string>
+	<string name="thread_delete_messages">Delete Messages</string>
+	<!--  -->
+	<string name="delete_all_messages">Delete All Thread Messages</string>
+	<string name="delete_all_messages_details">Are you sure you want to delete all messages from this thread?</string>
+	
+	
+	<!-- Errors transmistting messages -->
+	<string name="urgent_msg_sent">Urgent message sent.</string>
+	<string name="urgent_msg_received">Urgent message. Maybe result of a network error.</string>
+	<string name="error_detected">Error Detected.</string>
+	<string name="message_cancelled">Message Cancelled.</string>
+	<string name="broken_channel">Failed. Contact might be unavailable.</string>
+	<string name="urgent_set_warning">Urgent is active. Can only send one code.</string>
+	
+	
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/general_preferences" >
+
+    <PreferenceCategory
+        android:title="@string/service" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="autostart"
+            android:persistent="true"
+            android:summary="@string/service_autostart_details"
+            android:title="@string/service_autostart" />
+        <CheckBoxPreference
+            android:key="service_enable_launch"
+            android:persistent="true"
+            android:summary="@string/service_enabled_details"
+            android:title="@string/service_enabled" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/channel_performance" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="error_detection"
+            android:persistent="true"
+            android:summary="@string/error_detection_details_general"
+            android:title="@string/error_detection" />
+        
+        <!-- Should be ListPreference -->
+        <PreferenceScreen
+            android:defaultValue="2"
+            android:key="jitter"
+            android:persistent="true"
+            android:summary="@string/jitter_details_general"
+            android:title="@string/jitter"
+            android:widgetLayout="@layout/preference_menu" />
+        <PreferenceScreen
+            android:key="code_map"
+            android:persistent="false"
+            android:summary="@string/manage_code_maps_details"
+            android:title="@string/manage_code_maps"
+            android:widgetLayout="@layout/preference_menu" />
+    </PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="@string/proxy_interfazze"
+	    android:layout="@layout/preference_category_summary"
+	    android:summary="@string/proxy_interfazze_details">
+	    <EditTextPreference
+	        android:defaultValue=""
+            android:key="interfazze_password"
+            android:persistent="true"
+            android:dialogMessage="@string/signinng_password"
+            android:dialogTitle="@string/set_password_dialog_title"
+            android:summary="@string/interfazze_password_details"
+            android:title="@string/interfazze_password_title"
+	        /><!-- @string/password_instructions -->
+	</PreferenceCategory>
+	
+</PreferenceScreen>

@@ -1,0 +1,146 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.mashashi.ringsms"
+    android:versionCode="8"
+    android:versionName="0.7" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="9" />
+	
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
+	<!-- Required permission to check licensing. -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme" >
+        
+        <activity android:name="pt.mashashi.ringsms.database.test.TestDatabaseActivity" android:screenOrientation="portrait"/>
+        
+        <activity android:name="pt.mashashi.ringsms.codemap.CodeMappingsListActivity" android:screenOrientation="portrait"/>
+            
+        <activity android:name="pt.mashashi.ringsms.codemap.CodeMappingsEditListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+			    <action android:name="android.intent.action.VIEW" />
+			    <category android:name="android.intent.category.DEFAULT" />
+			    <data android:scheme="content" />
+			    <data android:scheme="file" />
+			    <data android:pathPattern=".*\\.ringsms" />
+			    <data android:mimeType="application/octet-stream" />
+			</intent-filter>
+        </activity>
+        
+        <activity android:name="pt.mashashi.ringsms.chat.compose.ComposeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="pt.mashashi.ringsms.chat.logged.LoggedActivity" android:screenOrientation="portrait" />
+        <activity android:name="pt.mashashi.ringsms.threads.GeneralPreferences" android:screenOrientation="portrait"/>
+        <activity android:name="pt.mashashi.ringsms.chat.ThreadPreferences" android:screenOrientation="portrait"/>
+            
+        <activity android:name="pt.mashashi.ringsms.threads.ThreadsActivity" android:screenOrientation="portrait">
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity android:name="pt.mashashi.ringsms.licensing.LicensingActivity" android:screenOrientation="portrait">
+        	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name="pt.mashashi.ringsms.autostart.Autostart">
+	        <intent-filter>
+	            <action android:name="android.intent.action.BOOT_COMPLETED" />
+	        </intent-filter>
+	    </receiver>
+	    <!-- This will not work for the application it self. However we could use the onupgrade method of sql...-->
+	    <!--
+        <receiver android:name="pt.mashashi.ringsms.autostart.Autostart">
+	    	<intent-filter>
+            	<action android:name="android.intent.action.PACKAGE_INSTALL" />
+            	<action android:name="android.intent.action.PACKAGE_ADDED" />
+            	<data android:scheme="package"/>
+        	</intent-filter>
+	    </receiver>
+	    -->
+        
+        
+        <!--
+        <receiver android:priority="1" android:name="pt.mashashi.ringsms.talk.CallStateBroadcast">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        -->
+        
+        <receiver android:name="pt.mashashi.ringsms.talk.CallCancelBroadcast">
+            <intent-filter>
+                <action android:name="pt.mashashi.ringsms.MESSAGE_SENT_CANCEL" />
+            </intent-filter>
+        </receiver>
+        
+	    <receiver android:name="pt.mashashi.ringsms.talk.MsgNotifyBroadcast">
+            <intent-filter>
+                <action android:name="pt.mashashi.ringsms.MSG_RECEIVED" />
+                <action android:name="pt.mashashi.ringsms.MSG_READ" />
+            </intent-filter>
+        </receiver>
+	    <receiver android:name="pt.mashashi.ringsms.talk.MsgRefreshBroadcast">
+            <intent-filter>
+                <action android:name="pt.mashashi.ringsms.MSG_REFRESH" />
+                <action android:name="pt.mashashi.ringsms.MSG_RECEIVED" />
+                <action android:name="pt.mashashi.ringsms.NEW_MSG_NOTIFICATION_PLACED" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="pt.mashashi.ringsms.codemap.CodeMappingsListActivity$NewCodeMapImportedRefreshBroadcast">
+            <intent-filter>
+                <action android:name="pt.mashashi.ringsms.NEW_IMPORTED_CODE_MAP" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="pt.mashashi.ringsms.chat.ThreadPreferences$NewCodeMapImportedRefreshBroadcast">
+            <intent-filter>
+                <action android:name="pt.mashashi.ringsms.NEW_IMPORTED_CODE_MAP" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="pt.mashashi.ringsms.codemap.CodeMappingsEditListActivity$NewCodeMapImportedRefreshBroadcast">
+            <intent-filter>
+                <action android:name="pt.mashashi.ringsms.NEW_IMPORTED_CODE_MAP" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="pt.mashashi.ringsms.chat.ChatActivity$NewCodeMapImportedRefreshBroadcast">
+            <intent-filter>
+                <action android:name="pt.mashashi.ringsms.NEW_IMPORTED_CODE_MAP" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- 
+        <receiver android:name="pt.mashashi.ringsms.interfazze.ListenForMessageRequestBroacast">
+            <intent-filter>
+                <action android:name="com.fsck.k9.intent.action.EMAIL_RECEIVED" />
+                <data android:scheme="email" />
+            </intent-filter>
+        </receiver>
+         -->
+         
+        <service
+            android:icon="@drawable/ic_launcher"
+  			android:label="@string/app_name_service_messages"
+            android:name="pt.mashashi.ringsms.autostart.PhoneStateListenerStarterService" />
+        
+        <service
+            android:icon="@drawable/ic_launcher"
+  			android:label="@string/app_name_service_interfazze"
+            android:name="pt.mashashi.ringsms.interfazze.InterfazzeStarterService" />
+        
+    </application>
+
+</manifest>

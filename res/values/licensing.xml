@@ -1,0 +1,9 @@
+
+    <resources>
+        <string name="ringsms_activation">RingSMS Activation</string>
+        <string name="activate_now">Activate Now</string>
+        <string name="activation_instructions">To use this application you must activate it first.\nBe sure you are connected to the Internet and press &quot;Activate Now&quot;.\nIf the activation fails try again by pressing &quot;Activate Now&quot; as well.</string>
+        <string name="activating_ringsms">Activating RingSMS</string>
+        <string name="this_shouldnt_take_long">This shouldn\'t take long.</string>
+        <string name="failed_activation">Failed Activation</string>
+    </resources>

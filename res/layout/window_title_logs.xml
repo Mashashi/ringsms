@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_logs"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:background="@drawable/new_message_rest"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dip" >
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="1dp"
+        android:src="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/new_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/plus"
+        android:text="@string/new_message"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_message"
+        android:layout_toRightOf="@id/plus"
+        android:text="@string/write_new_message"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

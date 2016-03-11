@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">RingSMS</string>
+	<string name="app_name_service_messages">RingSMS Messages Listener Service</string>
+	<string name="app_name_service_interfazze">RingSMS Service of Integration</string>
+	
+    <!-- General -->
+    <string name="select">Select</string>
+    <string name="submit">Submit</string>
+	<string name="cancel">Cancel</string>
+    <string name="no">No</string>
+	<string name="yes">Yes</string>
+	<string formatted="false" name="time_stamp">%s at %s</string>
+	<string name="delete">Delete</string>
+	<string name="not_possible_try_again_later">It was not possible to perform the operation. Try again later.</string>
+	<string name="unavailable">Unavailable</string>
+	<string name="loading">Loading</string>
+	<string name="edit">Edit</string>
+	<string name="share">Share</string>
+	<string name="choose_target">Choose target</string>
+	<string name="utf_8_not_supported">Action can not be performed. UTF-8 not supported.</string>
+	<string name="sd_card_not_mounted">Please mount your SD card</string>
+	<string name="new_str">New</string>
+	<string name="corrupted_file">The file is corrupted</string>
+	<string name="associate_with">Associate with</string>
+	<string name="search_contact">Search contact</string>
+	
+	<!-- Accessibility -->
+    <string name="logo">RingSMS Logo</string>
+    <string name="contact_photo">Contact Photo</string>
+    <string name="back">Back</string>
+	<string name="select_contact">Select Contact</string>
+	
+    <!-- Info -->
+    <string name="help"><Data><![CDATA[<html><body><h1>Help</h1><h5>Why don\'t my messages get received?</h5><p>Most likely this app is not installed in the far ended android cellphone or the service responsible for interpret the rings is not running. The service can be turned on, on the preference menu accessible through the options menu at thread listing.</p><h5>The Jitter</h5>By setting a longer jitter the message getting send will take longer to transmit. However it will be more resilient to delay introduced by connection time variations. Usually the long jitter offers a good trade between transmission time and relience to these variations. For long messages, if your concern is the time it takes to transmit, use a shorter jitter than "long". But on the other hand if your concern is error resilience, use the "huge" jitter.<h5>The Error Detection</h5><p>Error detection may be usefull in order to the receiver better detect errors in the message sent. There is always a small probability of the message that arrives having undetected errors.</p><p>If this doesn\'t matter to you or most of the times you don\'t have any problem, go ahead and disable this feature, as it increases the time it takes to send a message.</p><h5>I have error detection turned off. How come some sent messages yield errors?</h5><p>Error detection will always occur but without performance lost. When you turn on error detection you are degrading the performance to increase reability in the delivery.</p><h5>Which characters are allowed?</h5><p>Any character in the following list is valid:<br />0,1,2,3,4,5,6,7,8,9, ,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x,y,w, z,.,,,?,\,!,*,=,&,|,+,-,>,&lt;,%,$,£,€,@,#,_</p><h5>Messages are not received</h5><p>Try waiting for about 35 seconds before sending another message, if the first one failed for some unexpected reason. This will give time to the end receiver to expire the bits received previously, in order that the new message is interpreted as is.</p><h5>What is a code map?</h5><p>A code map, as the name says, its a mapping between a sentence and a transmited code, making it possible to "transmit" a large amount of text in less time.</p><h5>What does "urgent" do?</h5><p>With urgent on, you can only send only a string from your code map or a character from the default mapping. It omits some information while transmiting. The trade off, is that this behaviour could result of errors while transmiting. So the receiver is notified that a urgent message arrived however, it could be result of an error. You can\'t turn on error detection for this kind of message.</p><h5>How can I differentiate between a real call and a call realted to a RingSMS message?</h5><p>If your will is to differentiate between these two situations, you can let the phone ring for a while if a notification appears informaing this is a real message go ahead and pick up the call. It most likely isn\'t a call related to a RingSMS message. This feature is only available if the listener service responsible for the message interpretation is running.</p><h5>What is authorization password?</h5><p>The RingSMS app supplies an interface for third party applications to use the service of sending SMSs via ringtones, and for receiving system broadcasts relatives to new incoming messages. However we care about security... So this password is used for the service suplicant to sign is request and is used to encrypt the system broadcasts. If no password is supplied the service is disabled and the system broadcasts are made unavailable. See our wiki at github (https://github.com/Mashashi/ringsms/wiki) for further information. If it is not available it will be very sone.</p><h5>Issues (Bugs, improvements, translations, etc.)?</h5><p>You may report them preferentially at the github page (https://github.com/Mashashi/ringsms/issues).<p>Now... Have a happy life ;)<p></p></body></html>]]> </Data></string>
+    
+</resources>

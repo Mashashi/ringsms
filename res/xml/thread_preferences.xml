@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/thread_preferences" >
+
+    <PreferenceCategory
+        android:key="service_category"
+        android:title="@string/channel_performance" >
+        
+        <CheckBoxPreference
+            android:key="check_sum"
+            android:persistent="false"
+            android:summary="@string/error_detection_details"
+            android:title="@string/error_detection" />
+		
+		<!-- Should be ListPreference -->
+        <PreferenceScreen
+            android:key="jitter"
+            android:persistent="false"
+            android:summary="@string/jitter_details"
+            android:title="@string/jitter"
+            android:widgetLayout="@layout/preference_menu" />
+        
+        <PreferenceScreen
+            android:key="code_map"
+            android:persistent="false"
+            android:summary="@string/code_map_details"
+            android:title="@string/code_map"
+            android:widgetLayout="@layout/preference_menu" />
+        
+        <CheckBoxPreference
+            android:key="send_urgent"
+            android:persistent="false"
+            android:defaultValue="false"
+            android:summary="@string/send_urgent_details"
+            android:title="@string/send_urgent_title" />
+        
+        <!-- <Preference
+            android:key="code_map_selected_share"
+            android:persistent="false"
+            android:summary="@string/code_map_selected_share_details"
+            android:title="@string/code_map_selected_share_title" /> -->
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

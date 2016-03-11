@@ -1,0 +1,33 @@
+<resources>
+    
+    <string-array name="edit_code_mappings_menu">
+        <item>@string/delete</item>
+    </string-array>
+    
+	<string name="code_mappings_options">%s\'s Code Map Options</string>
+    <string-array name="code_mappings_context">
+        <item>@string/edit</item>
+        <item>@string/share</item>
+        <item>@string/delete</item>
+        <item>@string/associate_with</item>
+    </string-array>
+    
+    <string name="thread_options_title">%s\'s Thread Options</string>
+    <string-array name="thread_context">
+        <item>@string/delete</item>
+    </string-array>
+    
+    <string-array name="threads_option_menu">
+        <item>@string/delete_all</item>
+        <item>@string/preferences</item>
+        <item>@string/info</item>
+    </string-array>
+    
+    <string-array name="chat_option_menu">
+        <item>@string/thread_preferences_menu</item>
+        <item>@string/thread_clear_fields</item>
+        <item>@string/thread_delete_messages</item>
+        <item>@string/delete_thread_menu</item>
+    </string-array>
+    
+</resources>

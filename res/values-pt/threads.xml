@@ -1,0 +1,25 @@
+<resources>
+    
+    <!-- Window Bar -->
+	<string name="new_message">Nova mensagem</string>
+	<string name="write_new_message">Escrever nova mensagem</string>
+	
+	<!-- Threads Deletion -->
+	<string name="delete_all_threads_title">Apagar Todas as Conversações</string>
+	<string name="delete_all_threads_details">Que mesmo apagar todas as conversações?</string>
+	
+	<!-- Thread Deletion -->
+	<string name="delete_thread_title">Apagar a Conversações %s\</string>
+	<string name="delete_thread_title_selected">Apagar Conversações</string>
+	<string name="delete_thread_details">Que mesmo apagar esta conversação?</string>
+	
+	<!-- Total Threads -->
+	<string name="total_threads">%s conversações</string>
+	<string name="total_thread">%s conversação</string>
+	
+	<!-- Threads Options Menu -->
+	<string name="delete_all">Apagar Todas</string>
+    <string name="preferences">Preferências</string>
+    <string name="info">Info</string>
+	
+</resources>

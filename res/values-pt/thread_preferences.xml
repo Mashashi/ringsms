@@ -1,0 +1,34 @@
+<resources>
+    
+    <!-- General -->
+    <string name="using">(A Usar %s)</string>
+    
+    
+    
+    
+    <string name="thread_preferences">Preferências das Conversações</string>
+    
+    <string name="select_the_connection_jitter">Seleccione o Jitter da Ligação</string>
+   	<string name="huge_jitter">Enorme</string>
+	<string name="long_jitter">Longo</string>
+	<string name="medium_jitter">Médio</string>
+	<string name="short_jitter">Pequeno</string>
+    
+    <string name="jitter">Jitter</string>
+	<string name="jitter_details">Define o jitter para esta conversação. Um jitter longo faz o balanceamento entre performance e fiabilidade. (Ver mais em info)</string>
+	
+	<string name="error_detection">Detecção de Erros</string>
+	<string name="error_detection_details">Detecção de erros para esta conversação (Ver mais em info)</string>
+	
+	
+	<string name="code_map">Mapa de Códigos</string>
+	<string name="code_map_details">Seleccione o mapa de códigos a usar (Ver mais em info)</string>
+	
+	<string name="send_urgent_title">Urgente</string>
+	<string name="send_urgent_details">Envie 1 código com o mínimo possível de toques. Válido nesta interacção. Minimize o nº de toques com o jitter longo. (Ver mais em info)</string>
+	
+	<!-- 
+	<string name="code_map_selected_share_title">Share Selected Code Map</string>
+	<string name="code_map_selected_share_details">Send the code map, via email. The receiver should open the file in the mobile device where the RingSMS is installed.</string>
+	-->
+</resources>

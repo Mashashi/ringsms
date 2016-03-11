@@ -1,0 +1,60 @@
+<resources>
+    
+    <string name="general_preferences">General Preferences</string>
+    
+	<!-- Threads Configs Strings -->
+	
+	<string name="error_detection_details_general">Error detection for new threads (See more at info dialog)</string>
+	<string name="jitter_details_general">Define the jitter for new threads. Long is balance between performance and reliability. (See more at info dialog)</string>
+	
+	<string name="service">Service</string>
+	<string name="channel_performance">Channel Performance</string>
+	
+	<string name="service_autostart">Auto Start</string>
+	<string name="service_autostart_details">Start the service on phone boot and when starting the app in order to correctly interpret the messages</string>
+	
+	<string name="service_enabled">Service Enabled</string>
+	<string name="service_enabled_details">Enable or disable the listener service responsible for interpreting the messages.</string>
+	
+	<string name="manage_code_maps">Code Maps</string>
+	<string name="manage_code_maps_details">Manage code maps (See more at info dialog)</string>
+	
+	<string name="proxy_interfazze">Integration</string>
+	<string name="proxy_interfazze_details">Defines a set of parameters to tune the integration with other software</string>
+	<string name="interfazze_password_title">Authorization Password</string>
+	<string name="interfazze_password_details">Defining a authorization password will enable the feature (See more at info)</string>
+	<string name="set_password_dialog_title">Set Password</string>
+	<string name="signinng_password">Password must be at least 6 characters</string>
+	
+	
+	<string name="code_map_preferences">Code Map Preferences</string>
+	<string name="code_map_used_by_enumeration">Used by: %s</string>
+	<string name="code_map_alert_delete_title">Delete %s Code Map</string>
+	<string name="code_map_alert_delete">You are about to delete this code map. The phone numbers to which it is associated will have no code mapping feature.</string>
+	<string name="code_map_send_subject">Code Map %s by RingSMS</string>
+	<string name="new_code_map">New Code Map</string>
+	
+	<string name="send_code_map_phone_number_title">Your Phone Number</string>
+	<string name="send_code_map_phone_number">Please input your phone number. It will be useful on import, in order to associate this code map with your phone number on the receiver.</string>
+	
+	<string name="code_mappings_editing_title">Editing Code Map\n\"%s\"</string>
+	<string name="code_mappings_name">Code Map Name</string>
+	<string name="editing_code_string">Editing Code String</string>
+	<string name="new_code_string">New String</string>
+	<string name="there_is_already_a_code">A string equal to the entered text already exists</string>
+	<string name="empty_string_not_allowed">The empty string is not allowed</string>
+	<string name="full_code_list">The string list is full</string>
+	<string name="empty_code_list">The code list can not be empty</string>
+	<string name="code_you_may_want_share">You may want to share your code map</string>
+	<string name="code_imported_success">Code map import successful</string>
+	<string name="code_association">Associate with %s</string>
+	<string name="code_overriding">This will override the current code map</string>
+	
+	<string name="code_map_associated_with">This code map is associated with the following numbers: %s</string>
+	<string name="code_map_isnt_associated_to_any_number">Not in use</string>
+	
+	<string name="code_map_list_help_use">Press to select</string>
+	<string name="code_map_list_help_edit">Press to edit</string>
+	<string name="code_map_list_help_options">Long press to open context menu</string>
+	<string name="code_map_list_help_deselect">Press code map in use to deselect</string>
+</resources>

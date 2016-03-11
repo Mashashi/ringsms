@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">RingSMS</string>
+	<string name="app_name_service_messages">RingSMS Serviço de Escuta de Mensagens</string>
+	<string name="app_name_service_interfazze">RingSMS Service de Integração</string>
+	
+    <!-- General -->
+    <string name="select">Seleccionar</string>
+    <string name="submit">Submeter</string>
+	<string name="cancel">Cancelar</string>
+    <string name="no">Não</string>
+	<string name="yes">Sim</string>
+	<string formatted="false" name="time_stamp">%s às %s</string>
+	<string name="delete">Apagar</string>
+	<string name="not_possible_try_again_later">Não foi possível levar a cabo a operação. Tente mais tarde.</string>
+	<string name="unavailable">Indisponível</string>
+	<string name="loading">A Carregar</string>
+	<string name="edit">Editar</string>
+	<string name="share">Partilhar</string>
+	<string name="choose_target">Escolher alvo</string>
+	<string name="utf_8_not_supported">A acção não pode ser levada a cabo. O UTF-8 não é suportado.</string>
+	<string name="sd_card_not_mounted">Por favor monte o cartão SD</string>
+	<string name="new_str">Novo</string>
+	<string name="corrupted_file">O ficheiro está corrompido</string>
+	<string name="associate_with">Associar com</string>
+	<string name="search_contact">Procurar contacto</string>
+	
+	<!-- Accessibility -->
+    <string name="logo">Logótipo RingSMS</string>
+    <string name="contact_photo">Foto do Contacto</string>
+    <string name="back">Atrás</string>
+	<string name="select_contact">Seleccionar Contacto</string>
+	
+    <!-- Info -->
+    <string name="help"><Data>
+	<![CDATA[<html><body><h1>Ajuda</h1><h5>Porque é que as minhas mensagens não são recebidas?</h5><p>O mais provável é não ter esta aplicação instalada no telemóvel android do receptor ou então o serviço responsável pela interpretação dos toques não se encontra ligado no receptor. O serviço pode ser ligado no menu de preferências acessível pelo menu de opções na listagem de conversações.</p><h5>O Jitter</h5><p>Ao activar um jitter mais longo a mensagem irá demorar mais tempo a ser transmitida. No entanto será mais resistente a atrasos introduzidos por váriações no tempo de establecimento de chamada. Normalmente um jitter "longo" oferece um bom compromissimo entre eficiência e resilência a estas variações. Para mensagens compridas, se há preocupação no tempo de transmissão use um jitter mais curto do que o "longo". Mas por outro lado se a resilência a erros for uma preocupação use o jitter "enorme".</p><h5>Detecção de Erros</h5><p>A detecção de erros pode ser útil para quem quiser ter mais certeza de que a mensagem é interpretada tal como é enviada.</p><p>Existe sempre a probabilidade de haver erros não detectados. <p>Se isto não importa para sí vá em frente e desligue.</p></p><h5>Tenho a detecção de erros desligada. Porque é que algumas das minhas mensagens chagam assinaladas com erro?</h5><p>A detecção de erro vai sempre ocorrer mas sem perda de desempenho. Quando liga a detecção de erros esta a degradar o desempenho em deterimento de uma melhor fiabilidade.<p><h5>Quais os caracteres permitidos sem usar mapas de códigos?</h5><p>Qualquer caracter da seguinte list é válido:<br />0,1,2,3,4,5,6,7,8,9, ,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x,y,w, z,.,,,?,\,!,*,=,&,|,+,-,>,&lt;,%,$,£,€,@,#,_</p><h5>As mensagen enviadas não são recebidas</h5><p>Tente esperar cerca de 35 segundos antes de enviar outra mensagem, se a primeira falhou por algum motivo. Isto dará tempo ao receptor para expirar os dados da mensagem falhada anterior,para que a nova mensagem seja interpretada tal como é<p><h5>O que é um mapa de códigos?</h5><p>Um mapa de códigos, tal como o nome diz, é um mapeamento entre cadeias de caracteres e códigos transmitidos. Fazendo com que seja possível "transmitir" grandes quantidades de informação dando poucos toques.</p><h5>O que faz a opção "urgente"?</h5><p>Com a opção urgente ligada, só pode enviar uma única cadeia de caracteres de um mapa de códigos ou um caracter, no caso de não usar mapas.</p><p>Neste modo informação acerca do identificador do que esta a ser transmitido é omitido. A desvantagem é que esta situação poderia muito bem ser derivada de um erro. Portanto o receptor é avisado que uma mensagem urgente chegou mas que pode ser o resultado de um erro. Não pode ligar a detecção de erros para este tipo de mensagem.</p><h5>Como posso diferenciar uma mensagem do RingSMS de uma chamada real?</h5><p>Se deseja saber se a chamada que esta a receber é para ser atendida deixe tocar durante um pouco. Se aparecer uma notificação informando que esta é uma chamada real pode ir em frente e atendê-la, porque muito provavelmente não será uma chamada realacionada com envio de menssagens. Esta funcionalidade só está disponível se tiver o serviço responsável pela interpretação das mesangens ligado.</p><h5>O que é a password de autorização?</h5><p>A aplicação RingSMS define módulos para integração com outras aplicações. Para que estas possam utilizar o canal virtual establecido entre aplicações RingSMS, e receber eventos de sistema relativos a novas mensagens. No entanto nós preocupamo-nos com a segurança... Então uma password, para que a aplicação requerente possa enviar uma mensagem através do telemóvel, é utilizada para assinar digitalmente esse pedido por parte dessa aplicação. Se nenhuma password for definida o módulo de encaminhamento de mensagens é desactivado e e os broadacasts de sistema deixaram de estar disponíveis. Veja a nossa página em github (https://github.com/Mashashi/ringsms/wiki) para mais informação. Senão estiver disponível estará muito em breve.</p><h5>Problemas (Erros, melhorias, traduções, etc.)?</h5><p>Pode reportá-las na página do github (https://github.com/Mashashi/ringsms/issues).<p>Agora... Tenha uma vida feliz. ;)<p></p></body></html>]]> </Data></string>
+    
+</resources>

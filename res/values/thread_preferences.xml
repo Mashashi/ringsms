@@ -1,0 +1,34 @@
+<resources>
+    
+    <!-- General -->
+    <string name="using">(Using %s)</string>
+    
+    
+    
+    
+    <string name="thread_preferences">Thread Preferences</string>
+    
+    <string name="select_the_connection_jitter">Select The Connection Jitter</string>
+   	<string name="huge_jitter">Huge</string>
+	<string name="long_jitter">Long</string>
+	<string name="medium_jitter">Medium</string>
+	<string name="short_jitter">Short</string>
+    
+    <string name="jitter">Jitter</string>
+	<string name="jitter_details">Define the jitter for this threads. Long is balance between performance and reability. (See more at info dialog)</string>
+	
+	<string name="error_detection">Error Detection</string>
+	<string name="error_detection_details">Error detection for this threads (See more at info dialog)</string>
+	
+	
+	<string name="code_map">Code Map</string>
+	<string name="code_map_details">Select the code map to use in this thread (See more at info dialog)</string>
+	
+	<string name="send_urgent_title">Urgent</string>
+	<string name="send_urgent_details">Send a single code with the minimum information possible. Error detection is turned off. Valid for this interaction only. Use the long jitter for best results.</string>
+	
+	<!-- 
+	<string name="code_map_selected_share_title">Share Selected Code Map</string>
+	<string name="code_map_selected_share_details">Send the code map, via email. The receiver should open the file in the mobile device where the RingSMS is installed.</string>
+	-->
+</resources>

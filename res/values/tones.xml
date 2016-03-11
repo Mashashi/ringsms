@@ -1,0 +1,77 @@
+<resources>
+    <string-array name="tones">
+      	
+        <item>0=[0 0 0 0 0 0]</item>
+        <item>1=[0 0 0 0 0 1]</item>
+        <item>2=[0 0 0 0 1 0]</item>
+        <item>3=[0 0 0 0 1 1]</item>
+        <item>4=[0 0 0 1 0 1]</item>
+        <item>5=[0 0 0 1 1 0]</item>
+        <item>6=[0 0 0 1 1 1]</item>
+        <item>7=[0 0 1 0 0 0]</item>
+        <item>8=[0 0 1 0 0 1]</item>
+        <item>9=[0 0 1 0 1 0]</item>
+        
+        <item>a=[0 0 1 0 1 1]</item>
+        <item>b=[0 0 1 1 0 0]</item>
+        <item>c=[0 0 1 1 0 1]</item>
+        <item>d=[0 0 1 1 1 0]</item>
+        <item>e=[0 0 1 1 1 1]</item>
+        <item>f=[0 1 0 0 0 0]</item>
+        <item>g=[0 1 0 0 0 1]</item>
+        <item>h=[0 1 0 0 1 0]</item>
+        <item>i=[0 1 0 0 1 1]</item>
+        <item>j=[0 1 0 1 0 0]</item>
+        <item>k=[0 1 0 1 0 1]</item>
+        <item>l=[0 1 0 1 1 0]</item>
+        <item>m=[0 1 0 1 1 1]</item>
+        <item>n=[0 1 1 0 0 0]</item>
+        <item>o=[0 1 1 0 0 1]</item>
+        <item>p=[0 1 1 0 1 0]</item>
+        <item>q=[0 1 1 0 1 1]</item>
+        <item>r=[0 1 1 1 0 0]</item>
+        <item>s=[0 1 1 1 0 1]</item>
+        <item>t=[0 1 1 1 1 0]</item>
+        <item>u=[0 1 1 1 1 1]</item>
+        <item>v=[1 0 0 0 0 0]</item>
+        <item>x=[1 0 0 0 0 1]</item>
+        <item>y=[1 0 0 0 1 0]</item>
+        <item>w=[1 0 0 0 1 1]</item>
+        <item>z=[1 0 0 1 0 0]</item>
+        
+        <item>\u0020=[1 0 0 1 0 1]</item><!-- The white space -->
+        
+        
+        
+        
+        <item>.=[1 0 0 1 1 0]</item>
+        <item>,=[1 0 0 1 1 1]</item>
+        <item>\u003F=[1 0 1 0 0 0]</item> <!-- Question Mark -->
+        <item>\&apos;=[1 0 1 0 0 1]</item>
+        
+        <item>!=[1 0 1 0 1 0]</item>
+        <item>*=[1 0 1 0 1 1]</item>
+        <item>==[1 0 1 1 0 0]</item>
+        
+        <item>&amp;=[1 0 1 1 0 1]</item>
+        <item>|=[1 0 1 1 1 0]</item>
+        
+        <item>+=[1 0 1 1 1 1]</item>
+        <item>-=[1 1 0 0 0 0]</item>
+        <item>&gt;=[1 1 0 0 0 1]</item>
+        <item>&lt;=[1 1 0 0 1 0]</item>
+        <item>%=[1 1 0 0 1 1]</item>
+        
+        
+        
+        <item>$=[1 1 0 1 0 0]</item>
+        <item>£=[1 1 0 1 0 1]</item>
+        <item>€=[1 1 0 1 1 0]</item>
+        
+        <item>\u0040=[1 1 0 1 1 1]</item> <!-- Comercial At -->
+        <item>#=[1 1 1 0 0 0]</item>
+        <item>_=[1 1 1 0 1 0]</item>
+        
+        
+    </string-array>
+</resources>
