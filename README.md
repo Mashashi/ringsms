@@ -1,3 +1,8 @@
+# Install it
+
+	
+	[Available on google market](https://play.google.com/store/apps/details?id=pt.mashashi.ringsms)
+
 # Description
 
 RingSMS allows you to send messages for free. Even if you are disconnected from the internet. It does so by calling the number to you wish to send a message in a pattern that can be recognized as usefull information (your written tesxt). It uses a advanced algorithm to identify unequivocally which character is being transmitted by calling the targeted number of the message the minimum possible times. It also employs a feature of error detection to make sure most of the times, the message you want to send is what reaches the other end. This feature can be turn on or off as it implies the transmission of extra information.
